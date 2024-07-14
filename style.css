@@ -1,0 +1,110 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-image: url(https://www.shutterstock.com/shutterstock/photos/1924127555/display_1500/stock-photo-summer-blue-sky-cloud-gradient-light-white-background-beauty-clear-cloudy-in-sunshine-calm-bright-1924127555.jpg);
+  color: #222;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+  font-family: 'Maria';
+}
+
+.mobile {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 40px;
+  font-size: 18px;
+  font-weight: 700;
+
+}
+
+.temp-converter {
+  background: #fff;
+  border-radius: 15px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 20px 25px 45px;
+  min-width: 320px;
+  width: 100%;
+  height: auto;
+  background: linear-gradient(45deg, #898686, #afadad, #e4e2e2, #fff);
+}
+
+.title {
+  color: #222;
+  font-size: 1.5rem;
+  text-align: center;
+  text-decoration: underline gray;
+}
+
+.result {
+  text-align: center;
+  margin: 20px 0;
+  font-size: 20px;
+}
+
+.result-heading {
+  color: #555;
+  font-size: 1rem;
+  font-weight: lighter;
+  font-family: 'Rubik Light';
+  letter-spacing: 1px;
+}
+
+.celsius-value {
+  border-bottom: 3px solid white;
+  padding: 10px;
+  transition: all .45s ease;
+}
+
+input,
+select {
+  background: transparent;
+  border: none;
+  outline: none;
+  border-bottom: 2px solid white;
+  padding: 6px;
+  margin-bottom: 12px;
+}
+
+.degree-type {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.degree-field {
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+}
+
+option {
+  color: #000000;
+}
+
+#convert-btn {
+  background: linear-gradient(to bottom, #47459e, #0f0d6f);
+  border: none;
+  border-radius: 5px;
+  color: #f6f6f6;
+  cursor: pointer;
+  font-weight: bolder;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  margin-top: 30px;
+  padding: 15px 60px;
+  transition: all 0.3s ease-in;
+}
+
+#convert-btn:hover {
+  background: linear-gradient(to bottom, #2a287e, #1c1b4b);
+}
